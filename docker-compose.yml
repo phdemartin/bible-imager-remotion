@@ -1,0 +1,16 @@
+services:
+  bible-imager:
+    container_name: bible-imager
+    image: bible-imager:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "3002:3002"
+    shm_size: '1gb'
+    environment:
+      - NODE_ENV=production
+      # - GOOGLE_API_KEY=your_api_key_here # Optional if you want to set it server-side
+      # volumes:
+      #   - ./public/uploads:/app/public/uploads # If you need persistence for uploads

@@ -1,0 +1,43 @@
+{
+  "name": "bible-imager-remotion",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start -p 3002",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "@fontsource/fredericka-the-great": "^5.2.7",
+    "@google/generative-ai": "^0.24.1",
+    "@remotion/bundler": "^4.0.409",
+    "@remotion/media-utils": "^4.0.409",
+    "@remotion/player": "^4.0.409",
+    "@remotion/renderer": "^4.0.409",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.29.0",
+    "lucide-react": "^0.563.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.409",
+    "tailwind-merge": "^3.4.0",
+    "uuid": "^13.0.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.15",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
